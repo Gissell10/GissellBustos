@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--  ==============      SWIPER     ===============    -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!--  ==============      UNICONS       ===============    -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!--  ==============     CSS        ===============    -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Gissell Bustos</title>
+  </head>
+  <body>
+    <!--  ==============     HEADER       ===============    -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo">GB</a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list grid">
+            <li class="nav_item">
+              <a href="#home" class="nav_link">
+                <i class="uil uil-estate nav_icon"></i> Home
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">
+                <i class="uil uil-user nav_icon"></i> About
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#skills" class="nav_link">
+                <i class="uil uil-file-check-alt nav_icon"></i> Skills
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#portfolio" class="nav_link">
+                <i class="uil uil-book-open nav_icon"></i> Portfolio
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">
+                <i class="uil uil-envelope-alt nav_icon"></i> Contact
+              </a>
+            </li>
+            <i class="uil uil-times nav_close" id="nav-close"></i>
+          </ul>
+        </div>
+        <div class="nav_btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moonset change-theme" id="theme-button"></i>
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--  ==============     MAIN      ===============    -->
+    <main class="main">
+      <!--  ==============     HOME      ===============    -->
+      <section class="section home" id="section">
+        <div class="home_container container grid">
+          <div class="home_content grid">
+            <div class="home_social">
+              <a
+                href="https://www.linkedin.com/feed/"
+                target="blank"
+                class="home_social-icon"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+              <a
+                href="https://github.com/"
+                target="blank"
+                class="home_social-icon"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+              <a
+                href="http://instagram.com/"
+                target="blank"
+                class="home_social-icon"
+              >
+                <i class="uil uil-instagram"></i>
+              </a>
+            </div>
+            <div class="home_img home_blob">
+              <img src="assets/img/picsum.jpeg" alt="" class="home_blob-img" />
+            </div>
+            <div class="home_data">
+              <h1 class="home_title">Hi, I'm Gissell</h1>
+              <h3 class="home_subtitle">Apprentice Frontend developer</h3>
+              <p class="home_description">Apprentice</p>
+              <a href="#contact" class="button button--flex">
+                Contact Me <i class="uil uil-message button_icon"></i>
+              </a>
+            </div>
+            <div class="home_scroll">
+              <a href="" class="home_scroll-button button--flex">
+                <i class="uil uil-mouse-alt-2 home_scroll-mouse"></i>
+                <span class="home_scroll-name">Scroll down</span>
+                <i class="uil uil-arrow-down home_scroll-arrow"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  ==============     ABOUT     ===============    -->
+      <section class="about section" id="about">
+        <h2 class="section_title">About me</h2>
+        <span class="section_subtitle">My introduccion</span>
+
+        <div class="about_container container grid">
+          <img
+            src="assets/img/854981D0-8C41-4172-ACE3-05DEEF582954.jpeg"
+            alt=""
+            class="about_img"
+          />
+          <div class="about_data">
+            <p class="about_description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              egestas, augue id aliquet viverra, libero ante rutrum odio, non
+              placerat dolor augue dignissim nulla. Ut urna ex, imperdiet vitae
+              massa a, vehicula eleifend elit..
+            </p>
+            <div class="about_info">
+              <div>
+                <span class="about_info-title">00</span>
+                <span class="about-info-name"
+                  >Years <br />
+                  experince</span
+                >
+              </div>
+              <div>
+                <span class="about_info-title">03+</span>
+                <span class="about-info-name"
+                  >Completed <br />
+                  proyects</span
+                >
+              </div>
+              <div>
+                <span class="about_info-title">00</span>
+                <span class="about-info-name">
+                  Companies <br />
+                  worked</span
+                >
+              </div>
+            </div>
+            <div class="about_buttons">
+              <a
+                download=""
+                href="assets/pdf/gissellBustos.pdf"
+                class="button button--flex"
+              >
+                Download CV <i class="uil uil-import button-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  ==============      SKILLS     ===============    -->
+      <section class="skills section" id="skills">
+        <h2 class="section_title">Skills</h2>
+        <span class="section_subtitle">My technical level</span>
+
+        <div class="skills_container container grid">
+          <div>
+            <!--  ==============      skills 1    ===============    -->
+            <div class="skills_content">
+              <div class="skills_header">
+                <i class="uil uil-brackets-curly skills_icon"></i>
+
+                <div>
+                  <h1 class="skills title">
+                    Junior Front-end Developer with a background in Forest
+                    Engineering
+                  </h1>
+                  <span class="skills_subtitle">1+ year of apprentice </span>
+                </div>
+              </div>
+
+              <div class="skill_list grid">
+                <div class="skill_data">
+                  <div>
+                    <span class="skill_title">HTML</span>
+                    <span class="skill_name">
+                      <i class="uil uil-html5"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="skill_data">
+                  <div>
+                    <span class="skill_title">CSS</span>
+                    <span class="skill_name">
+                      <i class="uil uil-css3-simple"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="skill_data">
+                  <div>
+                    <span class="skill_title">JavaScript</span>
+                    <span class="skill_name">
+                      <i class="uil uil-java-script"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="skill_data">
+                  <div>
+                    <span class="skill_title">React</span>
+                    <span class="skill_name">
+                      <i class="uil uil-react"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="skill_data">
+                  <div>
+                    <span class="skill_title">Ruby on rails</span>
+                    <span class="skill_name">
+                      <i class="uil uil-react"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  ==============      PORTFOLIO     ===============    -->
+      <section class="section portfolio" id="portfolio">
+        <h2 class="title-portfolio">Portfolio</h2>
+        <span class="section_subtitle">Most recent work</span>
+
+        <div class="portfolio_container container swiper">
+          <div class="swiper-wrapper">
+            <!--  ==============      Portfolio   1  ===============    -->
+            <div class="portafolio_content grid swiper-slide">
+              <img
+                src="assets/img/strikeTimer.png"
+                alt="Strike-Timer"
+                class="portfolio_img"
+              />
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">Strike timer</h3>
+                <p class="portfolio_description">
+                  It is a Front-end app that allows the user to set up work and
+                  break time and the number of rounds; the work time is shown in
+                  green and the rest time in blue. This app was developed on
+                  Next.js and deployed on Vercel
+                </p>
+                <a
+                  href="https://strike-timer-d8pw6e11q-gissell10.vercel.app/"
+                  class="button button--flex button_small portfolio_button"
+                >
+                  DEMO
+                  <i class="uil uil-arrow-right button-icon"></i>
+                </a>
+              </div>
+            </div>
+            <!--  ==============      Portfolio   2  ===============    -->
+            <div class="portafolio_content grid swiper-slide">
+              <img
+                src="assets/img/responsive-web.png"
+                alt=""
+                class="portfolio_img"
+              />
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">Responsive Figma Desing</h3>
+                <p class="portfolio_description">
+                  Website adaptable to all divices, with ui components and
+                  animated interactions.
+                </p>
+                <a
+                  href="https://gissell10.github.io/Christmas/"
+                  class="button button--flex button_small portfolio_button"
+                >
+                  DEMO
+                  <i class="uil uil-arrow-right button-icon"></i>
+                </a>
+              </div>
+            </div>
+            <!--  ==============      Portfolio 3    ===============    -->
+            <div class="portafolio_content grid swiper-slide">
+              <img
+                src="assets/img/responsive-web.png"
+                alt=""
+                class="portfolio_img"
+              />
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">Drum kit</h3>
+                <p class="portfolio_description">
+                  Website adaptable to all divices, with ui components and
+                  animated interactions.
+                </p>
+                <a
+                  href="#"
+                  class="button button--flex button_small portfolio_button"
+                >
+                  DEMO
+                  <i class="uil uil-arrow-right button-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <!--  ==============      PROJECT IN MIND   ===============    -->
+      <section class="project section">
+        <div class="project_bg">
+          <div class="project_container container grid">
+            <div class="project_data">
+              <h2 class="project_title">Do you have a new project?</h2>
+              <p class="project_description">Contact me now</p>
+              <a href="" class="button button--flex button-white">
+                Contact me
+                <i class="uil uil-fast-mail project_icon button_icon"></i>
+              </a>
+            </div>
+            <img src="assets/img/IMG_0291.JPG" alt="" class="project_img" />
+          </div>
+        </div>
+      </section>
+      <!--  ==============     CONTACT       ===============    -->
+      <section class="contact section" id="contact">
+        <h2 class="section_title">Contact me</h2>
+        <span class="section_subtitle">Get in touch</span>
+        <div class="contact_container container grid">
+          <div>
+            <div class="contact_information">
+              <i class="uil uil-calling contact-icon"></i>
+
+              <div>
+                <h3 class="contact_title">Call Me</h3>
+                <span class="contact_subtitle">+0 410 247 632</span>
+              </div>
+            </div>
+            <div class="contact_information">
+              <i class="uil uil-envelope contact-icon"></i>
+
+              <div>
+                <h3 class="contact_title">Email</h3>
+                <span class="contact_subtitle">gissellbustosb@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact_information">
+              <i class="uil uil-map-marker contact-icon"></i>
+
+              <div>
+                <h3 class="contact_title">Australia</h3>
+                <span class="contact_subtitle"
+                  >Sydney, 3 Victoria Park parade</span
+                >
+              </div>
+            </div>
+          </div>
+          <form action="" class="contact_form grid">
+            <div class="contact_inputs grid">
+              <div class="contact_content">
+                <label for="" class="contact_label">Name</label>
+                <input type="text" class="contact_input" />
+              </div>
+              <div class="contact_content">
+                <label for="" class="contact_label">Email</label>
+                <input type="email" class="contact_input" />
+              </div>
+            </div>
+            <div class="contact_content">
+              <label for="" class="contact_label">Project</label>
+              <input type="text" class="contact_input" />
+            </div>
+            <div class="contact_content">
+              <label for="" class="contact_label">Message</label>
+              <textarea
+                name=""
+                id=""
+                cols="0"
+                rows="5"
+                class="contact_input"
+              ></textarea>
+            </div>
+            <div>
+              <a href="#" class="button button--flex">
+                Send Message
+                <i class="uil uil-message button_icon"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!--  ==============     FOOTER        ===============    -->
+      <footer class="footer">
+        <div class="footer_bg">
+          <div class="footer_container container grid">
+            <div>
+              <h1 class="footer_title">Gissell BUSTOS.</h1>
+              <span class="footer_subtitle">Software developer</span>
+            </div>
+
+            <ul class="footer_links">
+              <li>
+                <a href="#skills" class="footer_link">Skills</a>
+              </li>
+              <li>
+                <a href="#portfolio" class="footer_link">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contact" class="footer_link">Contact</a>
+              </li>
+            </ul>
+            <div class="footer_socials">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="footer_social"
+              >
+                <i class="uil uil-facebook-f"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="footer_social"
+              >
+                <i class="uil uil-instagram"></i>
+              </a>
+              <a
+                href="https://www.twitter.com/"
+                target="_blank"
+                class="footer_social"
+              >
+                <i class="uil uil-twitter-alt"></i>
+              </a>
+            </div>
+          </div>
+          <p class="footer_copy">©️ gissell 🦊</p>
+        </div>
+      </footer>
+    </main>
+    <!--  ==============     SWIPER JS        ===============    -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!--  ==============     MAIN JS        ===============    -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
