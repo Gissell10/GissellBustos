@@ -389,43 +389,22 @@ img {
   transition: 0.4s;
 }
 .skill_list {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   row-gap: 1.5rem;
   padding: 0 2.7rem;
 }
-.skill_titles {
+
+.skill_name {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: var(--mb-0-5);
 }
-.skill_name {
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
+.skill_name img {
+  width: 80px;
+  height: 80px;
 }
-.skill_bar,
-.skill_percentage {
-  height: 5px;
-  border-radius: 0.25rem;
-}
-.skill_bar {
-  background-color: var(--first-color-lighter);
-}
-.skill_percentage {
-  display: block;
-  background-color: var(--first-color);
-}
-.skills_html {
-  width: 90%;
-}
-.skills_css {
-  width: 70%;
-}
-.skills_js {
-  width: 60%;
-}
-.skills_react {
-  width: 1%;
-}
+
 /*  ====== PORTFOLIO ======  */
 .portfolio_container {
   overflow: initial;
