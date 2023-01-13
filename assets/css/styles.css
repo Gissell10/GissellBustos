@@ -396,9 +396,8 @@ img {
 
 .skill_name {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-bottom: var(--mb-0-5);
 }
 .skill_name img {
   width: 80px;
