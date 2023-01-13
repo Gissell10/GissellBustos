@@ -394,14 +394,14 @@ img {
   padding: 0 2.7rem;
 }
 
-.skill_name {
+.skill_data {
   display: flex;
   justify-content: center;
-  align-items: center;
+  height: 80px;
 }
 .skill_name img {
-  width: 80px;
-  height: 80px;
+  width: 100%;
+  height: 100%;
 }
 
 /*  ====== PORTFOLIO ======  */
