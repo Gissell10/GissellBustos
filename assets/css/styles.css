@@ -123,7 +123,8 @@ img {
 }
 /*  ==============     REUSABLE CSS CLASSES   ===============    */
 .section {
-  padding: 2rem 0 4rem;
+  margin: 2rem 0 4rem;
+  max-height: 100vh;
 }
 .section_title {
   font-size: var(--h1-font-size);
@@ -235,7 +236,7 @@ img {
 }
 
 .home_content {
-  grid-template-columns: 0.5fr 3fr;
+  grid-template-columns: 0.5fr 2fr;
   padding-top: 3.5rem;
 }
 
@@ -245,7 +246,7 @@ img {
   row-gap: 1rem;
 }
 .home_social-icon {
-  font-size: 1.25rem;
+  font-size: 2rem;
   color: var(--first-color);
 }
 .home_social-icon:hover {
