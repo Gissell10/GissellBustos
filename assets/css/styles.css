@@ -121,6 +121,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+video {
+  max-width: 100%;
+  height: auto;
+}
 /*  ==============     REUSABLE CSS CLASSES   ===============    */
 .section {
   margin: 2rem 0 4rem;
@@ -417,6 +421,11 @@ img {
   border-radius: 0.5rem;
   justify-self: center;
 }
+.portafolio_video {
+  width: 265px;
+  border-radius: 0.5rem;
+  justify-self: center;
+}
 .portfolio_title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
@@ -698,7 +707,8 @@ img {
   .about_buttons {
     justify-content: initial;
   }
-  .portfolio_img {
+  .portfolio_img,
+  .portafolio_video {
     width: 320px;
   }
   .portafolio_content {
