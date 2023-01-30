@@ -1,6 +1,6 @@
 /*  ==============     GOOGLE FONTS        ===============    */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Luckiest+Guy&display=swap");
 
 :root {
   --header-height: 3rem;
@@ -128,7 +128,6 @@ video {
 /*  ==============     REUSABLE CSS CLASSES   ===============    */
 .section {
   margin: 2rem 0 4rem;
-  max-height: 100vh;
 }
 .section_title {
   font-size: var(--h1-font-size);
@@ -171,7 +170,7 @@ video {
 }
 .nav_logo,
 .nav_toggle {
-  font-family: "Monoton", cursive;
+  font-family: "Luckiest Guy" "Great Vibes", cursive;
   color: var(--first-color);
   font-weight: var(--font-medium);
   font-size: var(--big-font-size);
@@ -256,11 +255,40 @@ video {
 .home_social-icon:hover {
   color: var(--first-color);
 }
-
-.home_blob-img {
+.home_blob {
   width: 170px;
   border-radius: 0.5rem;
+  margin-inline: auto;
+  position: relative;
 }
+.avatar_container {
+  aspect-ratio: 1 /1.2;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 0 0 100vw 100vw;
+  overflow: hidden;
+  transition: transform 350ms ease-in-out;
+}
+.avatar_container:hover {
+  transform: scale(1.1);
+}
+.circle {
+  position: absolute;
+  inset: auto 0 0;
+  aspect-ratio: 1/1;
+  width: 100%;
+  border-radius: 50%;
+  margin-inline: auto;
+  object-fit: cover;
+}
+.avatar {
+  position: relative;
+  z-index: 1;
+  max-height: 17rem;
+  transform: scale(1.3);
+}
+
 .home_scroll {
   display: none;
 }
@@ -335,7 +363,7 @@ video {
   width: 200px;
   border-radius: 0.5rem;
   justify-self: center;
-  align-self: center;
+  align-self: start;
 }
 .about_description {
   text-align: center;
@@ -683,7 +711,7 @@ video {
     padding-top: 5.5rem;
     column-gap: 2rem;
   }
-  .home_blob-img {
+  .home_blob {
     width: 270px;
   }
   .home_scroll {
