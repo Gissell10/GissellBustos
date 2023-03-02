@@ -253,7 +253,7 @@ video {
   color: var(--first-color);
 }
 .home_social-icon:hover {
-  color: var(--first-color);
+  color: var(--first-color-lighter);
 }
 .home_blob {
   width: 170px;
@@ -480,6 +480,9 @@ video {
 }
 .swiper-horizontal > .swiper-pagination-bullets {
   bottom: -2.5rem;
+}
+.swiper-pagination-bullet {
+  background-color: var(--text-color);
 }
 .swiper-pagination-bullet-active {
   background-color: var(--first-color);
@@ -796,7 +799,7 @@ video {
     grid-template-columns: repeat(3, 1fr);
   }
   .footer_bg {
-    padding: 3rem 0 3.5rem;
+    padding: 1rem 0;
   }
   .footer_links {
     flex-direction: row;
