@@ -137,7 +137,10 @@ video {
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-3);
 }
-
+.section_card-title {
+  font-size: var(--h3-font-size);
+  margin: 1rem;
+}
 .section,
 .section_title {
   text-align: center;
@@ -402,25 +405,16 @@ video {
   margin-bottom: var(--mb-2-5);
   cursor: pointer;
 }
-.skills_icon,
-.skills_arrow {
-  font-size: 2rem;
-  color: var(--first-color-alt);
-}
 .skills_icon {
+  font-size: 3rem;
+  color: var(--first-color-alt);
   margin-right: var(--mb-0-75);
 }
+
 .skills_title {
   font-size: var(--h3-font-size);
 }
-.skills_subtitle {
-  font-size: var(--small-font-size);
-  color: var(--text-color-light);
-}
-.skills_arrow {
-  margin-left: auto;
-  transition: 0.4s;
-}
+
 .skill_list {
   grid-template-columns: repeat(3, 1fr);
   row-gap: 1.5rem;
